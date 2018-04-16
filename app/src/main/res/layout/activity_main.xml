@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dagmara.zadanie1.MainActivity"
+    android:orientation="vertical"
+    android:background="#F5CCB0">
+
+    <TextView
+        android:text="Wpisz element do listy:"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/textView"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=" "
+        android:ems="10"
+        android:id="@+id/editText" />
+
+    <Button
+        android:text="Dodaj"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginStart="120dp"
+        android:background="#cc6666"
+        android:id="@+id/button2" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/l1_list"
+        android:scrollbarSize="30dp"
+        android:textAlignment="center"/>
+
+</LinearLayout>
